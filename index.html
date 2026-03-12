@@ -15,39 +15,48 @@
 
 <body>
     <!--intetstazione pagina-->
-    <header>
+    <nav>
         <img src="./img/duck.png" alt="logo di una paperella bianche su sfondo fucsia">
-        <ul>
-            <li>
+        <ul class="nav-options">
+            <li class="nav-option">
                 Anagrafica Utenti
             </li>
-            <li>
+            <li class="nav-option">
                 Storico Prestiti
             </li>
-            <li>
+            <li class="nav-option">
                 Help
             </li>
         </ul>
-    </header>
+
+        <button class="nav-btn">
+            <i class="bi bi-list"></i>
+        </button>
+
+    </nav>
 
     <!--contenuto principale-->
     <main>
+
         <!--sezione tabella-->
         <section>
-            <!--intestazione pre-tabella-->
-            <header>
-                <p>
+
+            <!--intestazione tabella-->
+            <header class="table-header">
+                <p class="table-header-title">
                     Catalogo Libri
                 </p>
-                <button>
+                <button class="table-header-btn btn btn-primary">
                     Aggiungi Libro
                 </button>
             </header>
 
-
+            <!--inizio tabella-->
             <main>
                 <div class="container">
                     <table class="table table-striped table-hover">
+
+                        <!--intestazione tabella-->
                         <thead>
                             <tr>
                                 <th scope="col">
@@ -61,8 +70,10 @@
                                 </th>
                             </tr>
                         </thead>
+
+                        <!--contenuto tabella-->
                         <tbody>
-                            
+
                             <!--Primo elemento della tabella-->
                             <tr>
                                 <td>
@@ -82,7 +93,7 @@
                                 </td>
                             </tr>
 
-                            
+
                             <!--Secondo elemento della tabella-->
                             <tr>
                                 <td>
@@ -101,7 +112,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            
+
 
                             <!--Terzo elemento della tabella-->
                             <tr>
@@ -121,8 +132,8 @@
                                     </button>
                                 </td>
                             </tr>
-                            
-                            
+
+
                             <!--Quarto elemento della tabella-->
                             <tr>
                                 <td>
@@ -141,8 +152,8 @@
                                     </button>
                                 </td>
                             </tr>
-                            
-                            
+
+
                             <!--Quinto elemento della tabella-->
                             <tr>
                                 <td>
@@ -162,7 +173,7 @@
                                 </td>
                             </tr>
 
-                            
+
                             <!--Sesto elemento della tabella-->
                             <tr>
                                 <td>
@@ -201,8 +212,8 @@
                                     </button>
                                 </td>
                             </tr>
-                            
-                            
+
+
                             <!--Ottavo elemento della tabella-->
                             <tr>
                                 <td>
@@ -301,13 +312,13 @@
                                     </button>
                                 </td>
                             </tr>
-                            
+
                         </tbody>
 
                     </table>
                 </div>
- 
-             
+
+
             </main>
 
         </section>

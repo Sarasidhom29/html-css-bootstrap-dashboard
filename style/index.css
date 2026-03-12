@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+}
+
+.nav-options{
+    display: flex;
+    list-style-type: none;
+    color: gray;
+}
+
+.nav-option{
+    display: none;
+    margin: 20px 10px 0 10px;
+}
+
+.nav-btn{
+    margin: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 0 5px 0;
+    background-color: black;
+    color: gray;
+}
+
+img{
+    display: inline-block;
+    max-height: 80%;
+    margin: 5px 0 0 20px;
+}
+
+
+/*formattazione header tabella*/
+.table-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-header-title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.table-header-btn{
+    font-size: 20px;
+    margin: 15px;
+}
