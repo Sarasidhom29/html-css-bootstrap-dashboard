@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuovo Libro</title>
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style/index.css">
 </head>
+
 <body>
-       <!--intetstazione pagina-->
+    <!--intetstazione pagina-->
+
     <nav>
         <img src="./img/duck.png" alt="logo di una paperella bianche su sfondo fucsia">
         <ul class="nav-options">
@@ -29,8 +32,35 @@
         <button class="nav-btn">
             <i class="bi bi-list"></i>
         </button>
-
     </nav>
-    
+
+    <header>
+        <h1 class="new-book">
+            Nuovo Libro
+        </h1>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Nome Autore</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">Inserisci il nome dell'autore</textarea>
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Cognome Autore</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">Inserisci il nome dell'autore</textarea>
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Titolo</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">Inserisci il titolo del libro</textarea>
+                    <p>Titolo versione italiana</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
 </body>
+
 </html>
